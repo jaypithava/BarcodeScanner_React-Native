@@ -34,10 +34,18 @@ export default function App() {
   };
 
   if (hasPermission === null) {
-    return <Text>Requesting for camera permission</Text>;
+    return (
+    <View style={{justifyContent:'center', alignItems: 'center', flex:1}}>
+      <Text>Requesting for camera permission</Text>
+    </View>
+    );
   }
   if (hasPermission === false) {
-    return <Text>No access to camera</Text>;
+    return (
+    <View style={{justifyContent:'center', alignItems: 'center', flex:1}}>
+        <Text>No access to camera</Text>
+    </View>
+    );
   }
 
   return (
