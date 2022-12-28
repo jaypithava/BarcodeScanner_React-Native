@@ -70,7 +70,7 @@ export default function App() {
             }}
             underlayColor='slategray'
           >
-            <Text style={{ color: "white", fontSize: 15 }}>Re Scan</Text>
+            <Text style={{ color: "white", fontSize: 25 }}>Tap To Scan Me</Text>
           </TouchableHighlight>
         </View>
       </Modal>
